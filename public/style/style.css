@@ -1,0 +1,96 @@
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box !important;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h1, h2, h3, h4, h5 {
+    margin:0;
+    padding: 0;
+}
+
+.navbar-burger {
+    background-color: #080357 !important;
+}
+
+.navbar-burger a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-burger a:hover {
+    color: #FF9F1C;
+}
+
+.home-title h1 {
+    font-size: 5rem;
+    letter-spacing: .1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.8);
+}
+.home-title p {
+    font-size:3rem;
+    letter-spacing: .2rem;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.8);
+}
+
+.home-title {
+    padding: 25vh 0;
+    width:100%;
+  background: url(../imgs/lidye-petit-300571.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height:100vh;
+  text-align: center;
+  color:white;
+}
+
+.home-infos {
+    background-color: #FF9F1C;
+    min-height: 100vh;
+    color:#080357;
+    text-align: center;
+    padding-top: 25vh;
+
+}
+.burgerList {
+   background-color: #FF9F1C;
+    min-height: 100vh;
+    color:#080357;
+    text-align: center;
+}
+.home-infos h2 {
+    margin:0 0 1rem 0;
+    font-family: 'Pacifico', cursive;
+    color:rgb(249, 209, 160);
+}
+
+.home-infos p {
+        font-family: 'Montserrat', sans-serif;
+        padding: 0 2rem;
+}
+
+.home-infos i {
+    color:rgba(255, 255, 255, 0.5);
+    margin: 3rem 0 1rem 0;
+}
+
+.burgerList .card {
+    margin: 1rem auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border:5px solid #FF9F1C;
+}
+
+.burgerList img {
+    height: 60%;
+    width: 60%;
+    margin: 1rem auto
+}
+
+.burgerList .btn {
+    background-color: #080357;
+    color: #FF9F1C;
+}
